@@ -1,0 +1,54 @@
+body{
+    background-color:antiquewhite;
+    margin-left: 45px;
+    margin-right: 45px;
+    background-size: 100%;
+    background-attachment: fixed;
+  
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+
+   
+}
+.read{
+    font-weight: 700;
+    font-size: 25px;
+}
+.content{
+    color: #16213E;
+}
+
+  .li{
+    display: inline-block;
+    font-size: 130%;
+    width: 3cm;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+li{
+    display: inline-block;
+    color: black;
+
+}
+
+#nav{
+    color: black;
+    background-color: rgb(244, 172, 113);
+}
+.quote{
+    background-color: white;
+}
+#sp{
+    font-family: 'Kaushan Script', cursive;
+}
+#food_img{
+    border: solid 2px black;
+    border-width: 0.2cm;
+    border-radius: 15px;
+    width: 20%;
+
+    
+}

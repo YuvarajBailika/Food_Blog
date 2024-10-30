@@ -1,0 +1,49 @@
+body{
+    background-color: #F5E8C7;
+   padding-left: 50px;
+    padding-right: 50px;
+}
+#heading{
+  
+    font-family:cursive;
+    text-align: center;
+    color: #632626;
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+#quote1{
+   
+    font-family:'Brush Script MT', cursive;
+    font-size: 250%;
+    margin-top: 0px;
+    text-align: center;
+}
+.main_matter{
+    /* text-align: center;
+    margin-left: 30px;
+    margin-right:30px;*/
+    font-size: 20px;
+    font-family: cursive;
+    border: 1px #E4D8DC;
+    border-radius: 30px;
+    background-color: beige;
+    color:#0F3460;
+    border-width: 4px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h3{
+    text-align: center ;
+}
+.popular{
+    text-align: center;
+   font-family: cursive;
+   color: rgb(100, 0, 35);
+   font-size: 40px;
+}
+#cuisine{
+    font-family: cursive;
+    font-size: 30px;
+    color:#390202;
+}

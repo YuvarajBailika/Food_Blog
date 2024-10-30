@@ -1,0 +1,42 @@
+body{
+    background-color:#DAE2B6;
+   padding-left: 50px;
+    padding-right: 50px;
+}
+#heading{
+  
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+    color: #632626;
+    font-size: 70px;
+    margin-bottom: 2px;
+}
+#quote1{
+   
+    font-family:'Brush Script MT', cursive;
+    font-size: 250%;
+    margin-top: 0px;
+    text-align: center;
+}
+.main_matter{
+    /* text-align: center;
+    margin-left: 30px;
+    margin-right:30px;*/
+    font-size: 20px;
+    border: solid 2px #11324D;
+    border-radius: 30px;
+    background-color: beige;
+    color: rgb(10, 81, 3);
+    border-width: 4px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*table{
+     align: center;
+} */
+#cuisine{
+    font-family: cursive;
+    font-size: 30px;
+    color:#293462;
+}
