@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="script.js"></script>
+    <title>Taste the Best Food</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="nav-left">
+                <span class="menu-icon" onclick="toggleSidebar()"><i class="fas fa-bars"></i></span>
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="toggleSidebar()">Menu</a></li>
+                        <li><a href="recipes.html">Cuisines</a></li> 
+                        <li><a href="#">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="nav-center">
+                <span class="center-title">Taste the Best Food</span>
+            </div>
+            <div class="nav-right">
+                <nav>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <img class="logo-img" src="logo.png" alt="Taste the Best Food Logo" />
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">&times;</button>
+        <h2>Cuisines</h2>
+        <a href="indian.html" class="sidebar-link">Indian</a>
+        <a href="chinese.html" class="sidebar-link">Chinese</a>
+        <a href="american.html" class="sidebar-link">American</a>
+        <a href="italian.html" class="sidebar-link">Italian</a>
+    </div>
+    <div class="welcome-section">
+        <div class="welcome-container">
+            <div class="left-photo">
+                <img src="bodyim.jpg" alt="Description of Image" class="welcome-img" />
+            </div>
+            <div class="right-text">
+                <h1 style="font-family:cursive; background-color: bisque;">Welcome to Food Blog</h1>
+                <p>Well, we hope that’s why you’re here. Our recipes are designed for real, actual, everyday life, and we try to focus on real foods and healthy recipes (which honestly means a lot of different things to us, including the perfect chocolate chip cookie and cheese on cheese on cheese, because health is all about balance, right?).</p>
+                <p>This is the place to find those recipes — everything from our most popular, to meal prep, to Instant Pot recipes, or if you just, like, have some sad greens in your fridge to use up and you need some inspiration.</p>
+                <p>You’re here! Have fun. We hope you find something (many things) you love.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="categories-section">
+        <a href="vegetarian.html" class="category-link">
+            <div class="category-item">
+                <img src="vegetarian.jpg" alt="Vegetarian" class="category-img">
+                <span class="category-label">Vegetarian</span>
+            </div>
+        </a>
+        <a href="dessert.html" class="category-link">
+            <div class="category-item">
+                <img src="dessert.jpg" alt="Dessert" class="category-img">
+                <span class="category-label">Dessert</span>
+            </div>
+        </a>
+        <a href="healthy.html" class="category-link">
+            <div class="category-item">
+                <img src="healthy.jpg" alt="Healthy" class="category-img">
+                <span class="category-label">Healthy</span>
+            </div>
+        </a>
+        <a href="vegan.html" class="category-link">
+            <div class="category-item">
+                <img src="vegan.jpg" alt="Vegan" class="category-img">
+                <span class="category-label">Vegan</span>
+            </div>
+        </a>
+    </div>
+    
+    <div class="search-review-section">
+        <div class="search-box-container">
+            <input type="text" placeholder="Recipe styles e.g., Indian, Chinese" class="search-input" id="search-input">
+            <button class="search-button" onclick="performSearch()">Search</button>
+        </div>
+        <div class="review-box">
+            <a href="review.html"><p>Review the Blog</p></a>
+        </div>
+    </div>
+</body>
+</html>
